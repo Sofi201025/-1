@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony Spa & Массаж</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-spa"></i> Harmony
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#features">Преимущества</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#" class="btn" id="bookingBtn">Записаться</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Расслабление и восстановление</h1>
+                <p>Профессиональные массажисты, натуральные масла и уютная атмосфера для вашего комфорта</p>
+                <a href="#booking" class="btn" id="heroBookingBtn">Записаться онлайн</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши услуги</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Классический массаж" class="service-img">
+                    <div class="service-content">
+                        <h3>Классический массаж</h3>
+                        <p>Снятие напряжения и улучшение кровообращения. Идеально подходит для расслабления после тяжелого дня.</p>
+                        <div class="price">от 2000 руб.</div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Ароматерапия" class="service-img">
+                    <div class="service-content">
+                        <h3>Ароматерапия</h3>
+                        <p>Использование натуральных эфирных масел для релаксации. Улучшает настроение и снимает стресс.</p>
+                        <div class="price">от 2500 руб.</div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="SPA-программы" class="service-img">
+                    <div class="service-content">
+                        <h3>SPA-программы</h3>
+                        <p>Комплексные программы для тела и души. Полное расслабление и восстановление на нескольких уровнях.</p>
+                        <div class="price">от 3500 руб.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Почему выбирают нас</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Профессиональные массажисты</h3>
+                    <p>Специалисты с медицинским образованием и многолетним опытом работы.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Натуральные продукты</h3>
+                    <p>Используем только экологичные масла и продукты высокого качества.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Уютная атмосфера</h3>
+                    <p>Расслабляющая обстановка в наших кабинетах создает полный комфорт.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Индивидуальный подход</h3>
+                    <p>Учитываем все пожелания и особенности каждого клиента.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-percent"></i>
+                    </div>
+                    <h3>Гибкая система скидок</h3>
+                    <p>Предлагаем абонементы и специальные предложения для постоянных клиентов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Контакты</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Адрес</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Массажная, д. 15</p>
+                    
+                    <h3 style="margin-top: 30px;">Телефон</h3>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    
+                    <h3 style="margin-top: 30px;">Часы работы</h3>
+                    <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 21:00</p>
+                    <p><i class="fas fa-clock"></i> Сб-Вс: 10:00 - 20:00</p>
+                    
+                    <h3 style="margin-top: 30px;">Email</h3>
+                    <p><i class="fas fa-envelope"></i> info@harmony-massage.ru</p>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Записаться на прием</h3>
+                    <form id="bookingForm">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Ваш телефон" required>
+                        <input type="email" placeholder="Ваш Email">
+                        <textarea placeholder="Ваши пожелания или комментарии"></textarea>
+                        <button type="submit" class="btn">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo" style="color: white; margin-bottom: 20px;">
+                    <i class="fas fa-spa"></i> Harmony
+                </a>
+                
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                
+                <p class="copyright">© 2023 Harmony Spa & Массаж. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h3>Онлайн запись</h3>
+            <form id="modalBookingForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Ваш телефон" required>
+                <input type="email" placeholder="Ваш Email">
+                <select style="width: 100%; padding: 15px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                    <option value="">Выберите услугу</option>
+                    <option value="classic">Классический массаж</option>
+                    <option value="aroma">Ароматерапия</option>
+                    <option value="spa">SPA-программы</option>
+                </select>
+                <input type="date" style="width: 100%; padding: 15px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem;">
+                <textarea placeholder="Ваши пожелания или комментарии"></textarea>
+                <button type="submit" class="btn">Записаться</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
